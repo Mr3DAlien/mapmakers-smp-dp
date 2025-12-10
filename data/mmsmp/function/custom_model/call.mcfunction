@@ -1,0 +1,1 @@
+execute as @a[scores={change_model=1..}] run function mmsmp:custom_model/change

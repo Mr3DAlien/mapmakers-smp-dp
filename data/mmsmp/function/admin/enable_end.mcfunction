@@ -1,0 +1,1 @@
+scoreboard players set end_enabled settings 1

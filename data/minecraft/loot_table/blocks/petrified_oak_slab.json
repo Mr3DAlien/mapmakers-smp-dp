@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "type": "double"
+                },
+                "minecraft:custom_name": {
+                  "text": "Premium Mapmakers Coin™ Block",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:petrified_oak_slab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ],
+              "count": 1,
+              "add": false
+            }
+          ],
+          "name": "minecraft:petrified_oak_slab"
+        }
+      ]
+    }
+  ]
+}

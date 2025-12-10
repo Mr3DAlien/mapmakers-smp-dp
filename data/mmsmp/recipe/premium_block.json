@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": [
+      "minecraft:repeating_command_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:petrified_oak_slab",
+    "components": {
+      "minecraft:block_state": {
+        "type": "double"
+      },
+      "minecraft:custom_name": {
+        "text": "Premium Mapmakers Coin™ Block",
+        "color": "light_purple",
+        "bold": false,
+        "italic": false
+      }
+    }
+  },
+  "show_notification": true
+}

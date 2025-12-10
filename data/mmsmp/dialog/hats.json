@@ -1,0 +1,183 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Hold an item in your hand and select below",
+  "external_title": {
+    "text": "Custom Models",
+    "color": "light_purple",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "mmsmp:warrior_mask"
+        }
+      },
+      "description": {
+        "text": "Warrior Mask",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 1"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 2,
+        "components": {
+          "minecraft:item_model": "mmsmp:farmer_hat"
+        }
+      },
+      "description": {
+        "text": "Farmers Hat",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 2"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 3,
+        "components": {
+          "minecraft:item_model": "mmsmp:ricks_hair"
+        }
+      },
+      "description": {
+        "text": "Ricks Hair",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 3"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 4,
+        "components": {
+          "minecraft:item_model": "mmsmp:television"
+        }
+      },
+      "description": {
+        "text": "Television",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 4"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 5,
+        "components": {
+          "minecraft:item_model": "mmsmp:couronne"
+        }
+      },
+      "description": {
+        "text": "Couronne",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 5"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 6,
+        "components": {
+          "minecraft:item_model": "mmsmp:zylinder"
+        }
+      },
+      "description": {
+        "text": "Zylinder",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 6"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 7,
+        "components": {
+          "minecraft:item_model": "mmsmp:affro"
+        }
+      },
+      "description": {
+        "text": "Affro",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 7"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "value",
+      "label": {
+        "text": "Or type the ID in here!"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Done",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "/trigger change_model set $(value)"
+      }
+    },
+    {
+      "label": "Back"
+    }
+  ]
+}

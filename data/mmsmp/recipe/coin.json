@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:repeating_command_block"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "count": 4
+  }
+}

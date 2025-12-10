@@ -1,0 +1,3 @@
+title @s title {"font":"mmsmp:title","text":"\uEff1","shadow_color":0}
+tellraw @s ["",{"text":"Welcome back! ","bold":true,"color":"aqua"},{"text":"\n"},{"text":"Please make sure to also use the","color":"white"},{"text":" \u0020Modpack","color":"white"},{"text":" under:","color":"white"},{"text":" \n","bold":true,"color":"green"},{"text":"https://modpack.mcmapmakers.net","bold":true,"color":"green"}]
+scoreboard players reset @s leave_count

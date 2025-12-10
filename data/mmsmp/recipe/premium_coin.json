@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "XX ",
+    "XX ",
+    "   "
+  ],
+  "key": {
+    "X": [
+      "minecraft:chain_command_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:repeating_command_block"
+  },
+  "show_notification": true
+}
