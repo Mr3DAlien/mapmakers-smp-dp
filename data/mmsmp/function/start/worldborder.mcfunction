@@ -6,7 +6,7 @@ title @a title {"font":"mmsmp:title","text":"\uEff1\uE000\uEff2\uE000\uEff3\uE00
 # effects
 effect clear @a[tag=smp_member]
 effect give @a[tag=smp_member] minecraft:levitation 3 50 false
-effect give @a[tag=smp_member] minecraft:slow_falling 80 0 false
+effect give @a[tag=smp_member] minecraft:slow_falling infinite 0 false
 
 # gamemode
 gamemode survival @a[tag=smp_member]

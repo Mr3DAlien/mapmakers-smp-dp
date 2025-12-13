@@ -7,3 +7,4 @@ gamerule doDaylightCycle true
 gamerule doWeatherCycle true
 gamerule doMobSpawning true
 gamerule doFireTick true
+gamerule enderPearlsVanishOnDeath false

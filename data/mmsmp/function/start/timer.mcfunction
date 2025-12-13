@@ -13,9 +13,9 @@ execute if score min start_timer matches 0 if score sec start_timer matches 15..
 execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 as @a[tag=smp_member] at @s positioned over world_surface run tp @s ~ ~ ~
 
 # give effects
-execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 run effect give @a[tag=smp_member] minecraft:levitation 100 0 true
+execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 run tag @a[tag=smp_member] add is_startflying
+execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 run effect give @a[tag=smp_member] minecraft:levitation infinite 0 true
 execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 run effect give @a[tag=smp_member] minecraft:regeneration infinite 100 true
-
 
 # timer
 scoreboard players add tick start_timer 1
