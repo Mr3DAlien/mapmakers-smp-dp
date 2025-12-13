@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    [
+      "minecraft:repeating_command_block"
+    ],
+    [
+      "minecraft:paper"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:creeper_banner_pattern",
+    "components": {
+      "minecraft:provides_banner_patterns": "#mmsmp:realms",
+      "minecraft:item_model": "mmsmp:realms_banner_pattern",
+      "minecraft:custom_name": {
+        "translate": "item.mmsmp.realms_banner_pattern",
+        "italic": false
+      }
+    },
+    "count": 1
+  }
+}

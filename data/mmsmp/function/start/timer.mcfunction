@@ -9,9 +9,13 @@ execute if score min start_timer matches 1.. if score sec start_timer matches 10
 execute if score min start_timer matches 1.. if score sec start_timer matches ..9 run title @a actionbar [{"font":"mmsmp:minecraft","text":"0","color":"aqua"},{"font":"mmsmp:minecraft","score":{"name":"min","objective":"start_timer"},"color":"aqua"},{"font":"mmsmp:minecraft","text":" : ","color":"white"},{"font":"mmsmp:minecraft","text":"0","color":"green"},{"score":{"name":"sec","objective":"start_timer"},"color":"green"}]
 execute if score min start_timer matches 0 if score sec start_timer matches 15.. run title @a actionbar [{"font":"mmsmp:minecraft","score":{"name":"sec","objective":"start_timer"},"color":"green"}]
 
+# teleport player to highest point
+execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 as @a[tag=smp_member] at @s positioned over world_surface run tp @s ~ ~ ~
+
 # give effects
 execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 run effect give @a[tag=smp_member] minecraft:levitation 100 0 true
 execute if score min start_timer matches 1 if score sec start_timer matches 0 if score tick start_timer matches 10 run effect give @a[tag=smp_member] minecraft:regeneration infinite 100 true
+
 
 # timer
 scoreboard players add tick start_timer 1
