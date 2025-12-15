@@ -153,6 +153,69 @@
       "show_decorations": false,
       "show_tooltip": false,
       "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 8,
+        "components": {
+          "minecraft:item_model": "mmsmp:vader_helmet"
+        }
+      },
+      "description": {
+        "text": "Vader Helmet",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 8"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 9,
+        "components": {
+          "minecraft:item_model": "mmsmp:vader_helmet_damaged"
+        }
+      },
+      "description": {
+        "text": "Vader Helmet (Damaged)",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 9"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 10,
+        "components": {
+          "minecraft:item_model": "mmsmp:swiss_hat"
+        }
+      },
+      "description": {
+        "text": "Swiss Hat",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 10"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
     }
   ],
   "inputs": [
@@ -178,6 +241,13 @@
     },
     {
       "label": "Back"
+    },
+    {
+      "label": "Reset Model",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger change_model set 999999999"
+      }
     }
   ]
 }
