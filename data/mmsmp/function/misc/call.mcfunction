@@ -1,3 +1,6 @@
+# function that makes the portal work
+function mmsmp:misc/council_portal
+
 # function that makes custom hats possible
 function mmsmp:misc/custom_hats
 
