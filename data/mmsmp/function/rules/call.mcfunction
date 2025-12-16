@@ -1,0 +1,1 @@
+execute as @a unless score @s rules = version rules run function mmsmp:rules/accept

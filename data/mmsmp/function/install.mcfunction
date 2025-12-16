@@ -8,6 +8,9 @@ scoreboard objectives add start_timer dummy
 scoreboard objectives add setup dummy
 scoreboard objectives add settings dummy
 scoreboard objectives add change_model trigger
+scoreboard objectives add rules trigger
+
+execute as @a unless score @s rules matches 0.. run scoreboard players enable @s rules
 
 team add a_admin
 team add b_mojang

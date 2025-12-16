@@ -26,7 +26,7 @@ execute if score title start_timer matches 360 as @a at @s run playsound minecra
 execute if score title start_timer matches 400 run function mmsmp:start/worldborder
 
 # enables advancements again
-execute if score title start_timer matches 800 run gamerule announceAdvancements true
+execute if score title start_timer matches 800 run gamerule show_advancement_messages true
 
 # show credits
 execute if score title start_timer matches 800 run title @a title [{"font":"space:default","translate":"space.60"},{"font":"mmsmp:title","text":"\uEff6","shadow_color":0b}]

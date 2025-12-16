@@ -4,8 +4,8 @@
 #effect give @s minecraft:slow_falling infinite 0 true
 
 #tp @s -263 73 23 90 0
+#gamemode adventure @s
 scoreboard players enable @s change_model
 tag @a add smp_member
-#gamemode adventure @s
 recipe give @s *
 scoreboard players set @s setup 2

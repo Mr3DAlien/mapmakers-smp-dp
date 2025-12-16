@@ -2,9 +2,9 @@ difficulty hard
 time set day
 weather clear
 
-gamerule doInsomnia true
-gamerule doDaylightCycle true
-gamerule doWeatherCycle true
-gamerule doMobSpawning true
-gamerule doFireTick true
-gamerule enderPearlsVanishOnDeath false
+gamerule spawn_phantoms true
+gamerule advance_time true
+gamerule advance_weather true
+gamerule spawn_mobs true
+gamerule fire_damage true
+gamerule ender_pearls_vanish_on_death false
