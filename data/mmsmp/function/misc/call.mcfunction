@@ -6,7 +6,7 @@ fill -259 77 24 -259 73 20 minecraft:air destroy
 function mmsmp:misc/custom_hats
 
 # setup function when needed in future NUMBER can be updated!
-execute as @a unless score @s setup matches 2 run function mmsmp:misc/setup
+execute as @a unless score @s setup = version setup run function mmsmp:misc/setup
 
 # calls the show_title function when player joins again
 execute as @a[scores={leave_count=1..}] run function mmsmp:misc/show_title
