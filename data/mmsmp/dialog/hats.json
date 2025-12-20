@@ -216,6 +216,27 @@
       "show_decorations": false,
       "show_tooltip": false,
       "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 10,
+        "components": {
+          "minecraft:item_model": "mmsmp:frog_hat"
+        }
+      },
+      "description": {
+        "text": "Frog Hat",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 11"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
     }
   ],
   "inputs": [

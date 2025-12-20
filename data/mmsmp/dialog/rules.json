@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "SERVER RULES",
+  "external_title": "SERVER RULES",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "",
+      "extra": [
+        {
+          "text": "1. Respect All Players\n",
+          "bold": true
+        },
+        {
+          "text": "Treat everyone with kindness and respect. Toxic behavior, harassment, discrimination, or hate speech will not be tolerated.\n\n"
+        },
+        {
+          "text": "2. No Cheating or Hacking\n",
+          "bold": true
+        },
+        {
+          "text": "Using mods, hacked clients, or exploits that provide an unfair advantage (e.g., X-ray, flight) is strictly prohibited.\n\n"
+        },
+        {
+          "text": "3. No Griefing\n",
+          "bold": true
+        },
+        {
+          "text": "Do not destroy, steal, or alter another player’s builds or items without clear permission.\n\n"
+        },
+        {
+          "text": "4. Keep Chat Civil\n",
+          "bold": true
+        },
+        {
+          "text": "Avoid excessive swearing or inappropriate/NSFW discussions. Keep chat friendly and readable for everyone.\n\n"
+        },
+        {
+          "text": "5. Town Rule\n",
+          "bold": true
+        },
+        {
+          "text": "",
+          "extra": [
+            {
+              "text": "Try to build and stay close to the general start area/main town to keep the community "
+            },
+            {
+              "text": "together",
+              "underlined": false,
+              "hover_event": {
+                "action": "show_text",
+                "value": {
+                  "text": "7549",
+                  "type": "text"
+                }
+              }
+            },
+            {
+              "text": ".\n\n"
+            }
+          ]
+        },
+        {
+          "text": "6. Please Speak English When Possible\n",
+          "bold": true
+        },
+        {
+          "text": "We have many players here, so try to keep chat understandable for everyone.\n\n"
+        },
+        {
+          "text": "7. Use Common Sense\n",
+          "bold": true
+        },
+        {
+          "text": "Just because something is not explicitly written in the rules does not mean it is allowed. If it clearly ruins the experience for others, it may still lead to a warning or a ban.\n\n"
+        },
+        {
+          "text": "To continue, enter the verification code shown when hovering over the word \"together\" in rule 5",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "code",
+      "label": {
+        "text": "Code"
+      },
+      "max_length": 4,
+      "width": 80
+    }
+  ],
+  "can_close_with_escape": false,
+  "yes": {
+    "label": "Understood",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "/trigger rules_trigger set $(code)"
+    }
+  },
+  "no": {
+    "label": "Exit"
+  }
+}

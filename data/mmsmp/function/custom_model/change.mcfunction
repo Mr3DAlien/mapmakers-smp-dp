@@ -8,6 +8,7 @@ execute if score @s change_model matches 7 run item modify entity @s weapon.main
 execute if score @s change_model matches 8 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/vader_helmet
 execute if score @s change_model matches 9 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/vader_helmet_damaged
 execute if score @s change_model matches 10 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/swiss_hat
+execute if score @s change_model matches 11 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/frog_hat
 
 execute if score @s change_model matches 676767 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/alien_pants
 
