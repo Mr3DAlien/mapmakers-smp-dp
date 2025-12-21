@@ -237,6 +237,27 @@
       "show_decorations": false,
       "show_tooltip": false,
       "width": 50
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_nugget",
+        "count": 10,
+        "components": {
+          "minecraft:item_model": "mmsmp:pig_hat"
+        }
+      },
+      "description": {
+        "text": "Pig Hat",
+        "type": "text",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger change_model set 12"
+        }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 50
     }
   ],
   "inputs": [
