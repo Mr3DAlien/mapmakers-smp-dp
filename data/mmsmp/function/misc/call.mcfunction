@@ -2,9 +2,6 @@
 execute as @a[x=-259,y=73,z=20,dx=1,dy=4,dz=4] at @s run function mmsmp:misc/council_portal
 fill -259 77 24 -259 73 20 minecraft:air destroy
 
-# function that makes custom hats possible
-function mmsmp:misc/custom_hats
-
 # setup function when needed in future NUMBER can be updated!
 execute as @a unless score @s setup = version setup run function mmsmp:misc/setup
 
