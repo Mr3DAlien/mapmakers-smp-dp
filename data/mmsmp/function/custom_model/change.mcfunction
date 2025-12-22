@@ -16,4 +16,3 @@ execute if score @s change_model matches 676767 run item modify entity @s weapon
 execute if score @s change_model matches 999999999 at @s run function mmsmp:custom_model/reset_model
 
 scoreboard players reset @s change_model
-scoreboard players enable @s change_model
