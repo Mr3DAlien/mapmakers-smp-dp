@@ -13,7 +13,7 @@
         "id": "minecraft:iron_nugget",
         "count": 1,
         "components": {
-          "minecraft:item_model": "mmsmp:warrior_mask"
+          "minecraft:item_model": "mmsmp:hats/warrior_mask"
         }
       },
       "description": {
@@ -34,7 +34,7 @@
         "id": "minecraft:iron_nugget",
         "count": 2,
         "components": {
-          "minecraft:item_model": "mmsmp:farmer_hat"
+          "minecraft:item_model": "mmsmp:hats/farmer_hat"
         }
       },
       "description": {
@@ -55,7 +55,7 @@
         "id": "minecraft:iron_nugget",
         "count": 3,
         "components": {
-          "minecraft:item_model": "mmsmp:ricks_hair"
+          "minecraft:item_model": "mmsmp:hats/ricks_hair"
         }
       },
       "description": {
@@ -76,7 +76,7 @@
         "id": "minecraft:iron_nugget",
         "count": 4,
         "components": {
-          "minecraft:item_model": "mmsmp:television"
+          "minecraft:item_model": "mmsmp:hats/television"
         }
       },
       "description": {
@@ -97,7 +97,7 @@
         "id": "minecraft:iron_nugget",
         "count": 5,
         "components": {
-          "minecraft:item_model": "mmsmp:couronne"
+          "minecraft:item_model": "mmsmp:hats/couronne"
         }
       },
       "description": {
@@ -118,7 +118,7 @@
         "id": "minecraft:iron_nugget",
         "count": 6,
         "components": {
-          "minecraft:item_model": "mmsmp:zylinder"
+          "minecraft:item_model": "mmsmp:hats/zylinder"
         }
       },
       "description": {
@@ -139,7 +139,7 @@
         "id": "minecraft:iron_nugget",
         "count": 7,
         "components": {
-          "minecraft:item_model": "mmsmp:affro"
+          "minecraft:item_model": "mmsmp:hats/affro"
         }
       },
       "description": {
@@ -160,7 +160,7 @@
         "id": "minecraft:iron_nugget",
         "count": 8,
         "components": {
-          "minecraft:item_model": "mmsmp:vader_helmet"
+          "minecraft:item_model": "mmsmp:hats/vader_helmet"
         }
       },
       "description": {
@@ -181,7 +181,7 @@
         "id": "minecraft:iron_nugget",
         "count": 9,
         "components": {
-          "minecraft:item_model": "mmsmp:vader_helmet_damaged"
+          "minecraft:item_model": "mmsmp:hats/vader_helmet_damaged"
         }
       },
       "description": {
@@ -202,7 +202,7 @@
         "id": "minecraft:iron_nugget",
         "count": 10,
         "components": {
-          "minecraft:item_model": "mmsmp:swiss_hat"
+          "minecraft:item_model": "mmsmp:hats/swiss_hat"
         }
       },
       "description": {
@@ -223,7 +223,7 @@
         "id": "minecraft:iron_nugget",
         "count": 10,
         "components": {
-          "minecraft:item_model": "mmsmp:frog_hat"
+          "minecraft:item_model": "mmsmp:hats/frog_hat"
         }
       },
       "description": {
@@ -244,7 +244,7 @@
         "id": "minecraft:iron_nugget",
         "count": 10,
         "components": {
-          "minecraft:item_model": "mmsmp:pig_hat"
+          "minecraft:item_model": "mmsmp:hats/pig_hat"
         }
       },
       "description": {
