@@ -1,6 +1,6 @@
 {
   "function": "minecraft:set_components",
   "components": {
-    "minecraft:item_model": "mmsmp:alien_pants"
+    "minecraft:item_model": "mmsmp:hats/alien_pants"
   }
 }

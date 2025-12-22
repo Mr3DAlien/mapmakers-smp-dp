@@ -1,6 +1,6 @@
 {
   "function": "minecraft:set_components",
   "components": {
-    "minecraft:item_model": "mmsmp:warrior_mask"
+    "minecraft:item_model": "mmsmp:hats/warrior_mask"
   }
 }

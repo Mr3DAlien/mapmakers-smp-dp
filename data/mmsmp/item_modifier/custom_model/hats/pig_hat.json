@@ -1,6 +1,6 @@
 {
   "function": "minecraft:set_components",
   "components": {
-    "minecraft:item_model": "mmsmp:pig_hat"
+    "minecraft:item_model": "mmsmp:hats/pig_hat"
   }
 }

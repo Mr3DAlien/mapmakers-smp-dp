@@ -1,6 +1,6 @@
 {
   "function": "minecraft:set_components",
   "components": {
-    "minecraft:item_model": "mmsmp:ricks_hair"
+    "minecraft:item_model": "mmsmp:hats/ricks_hair"
   }
 }
