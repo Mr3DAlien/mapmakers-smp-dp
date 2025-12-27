@@ -14,3 +14,7 @@ scoreboard players reset @a[scores={eye_detection=1..}] eye_detection
 
 # special_drops
 function mmsmp:misc/special_drops
+
+
+# Disable Egg
+execute if score disable_egg settings matches 1 run function mmsmp:misc/disable_egg

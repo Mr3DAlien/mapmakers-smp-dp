@@ -1,0 +1,1 @@
+execute in minecraft:the_end run fill 0 0 0 0 255 0 minecraft:air replace minecraft:dragon_egg
