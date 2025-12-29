@@ -11,7 +11,7 @@ execute if score @s change_model matches 10 run item modify entity @s weapon.mai
 execute if score @s change_model matches 11 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/frog_hat
 execute if score @s change_model matches 12 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/pig_hat
 
-execute if score @s change_model matches 676767 run item modify entity @s weapon.mainhand mmsmp:custom_model/hats/alien_pants
+execute if score @s change_model matches 676767 run item modify entity @s weapon.mainhand mmsmp:custom_model/alien_pants
 
 execute if score @s change_model matches 999999999 at @s run function mmsmp:custom_model/reset_model
 
