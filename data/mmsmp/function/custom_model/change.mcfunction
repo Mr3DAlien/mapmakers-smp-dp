@@ -13,6 +13,6 @@ execute if score @s change_model matches 12 run item modify entity @s weapon.mai
 
 execute if score @s change_model matches 676767 run item modify entity @s weapon.mainhand mmsmp:custom_model/alien_pants
 
-execute if score @s change_model matches 999999999 at @s run function mmsmp:custom_model/reset_model
+execute if score @s change_model matches 999999999 if data entity @s SelectedItem at @s run function mmsmp:custom_model/reset_model
 
 scoreboard players reset @s change_model
