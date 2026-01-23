@@ -18,3 +18,6 @@ function mmsmp:misc/special_drops
 
 # Disable Egg
 execute if score disable_egg settings matches 1 run function mmsmp:misc/disable_egg
+
+# Join everyone in no team to the bot team
+team join z_bot @a[team=!a_admin,team=!b_mojang,team=!c_realms,team=!d_stickypiston,team=!e_friend]

@@ -17,9 +17,11 @@ team add b_mojang
 team add c_realms
 team add d_stickypiston
 team add e_friend
+team add z_bot
 
 team modify a_admin prefix [{"font":"mmsmp:icons","text":"\uEff2","shadow_color":0},{"font":"minecraft:default","text":""}]
 team modify b_mojang prefix [{"font":"mmsmp:icons","text":"\uEff3","shadow_color":0},{"font":"minecraft:default","text":""}]
 team modify c_realms prefix [{"font":"mmsmp:icons","text":"\uEff4","shadow_color":0},{"font":"minecraft:default","text":""}]
 team modify d_stickypiston prefix [{"font":"mmsmp:icons","text":"\uEff5","shadow_color":0},{"font":"minecraft:default","text":""}]
 team modify e_friend prefix [{"font":"mmsmp:icons","text":"\uEff6","shadow_color":0},{"font":"minecraft:default","text":""}]
+team modify z_bot prefix [{"font":"mmsmp:icons","text":"\uEff7","shadow_color":0},{"font":"minecraft:default","text":""}]
